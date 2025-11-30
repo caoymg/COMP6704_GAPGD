@@ -5,20 +5,23 @@
 This project implements a Gaussian-augmented PGD adversarial attack using multi-surrogate CLIP models. During optimization, the algorithm estimates the trace of the Hessian (tr(H)) using Hutchinson’s method to analyze the curvature of the loss landscape. The code is modularized into separate files for clarity.
 
 ## Directory Structure
+
+```
 project_root/
 ├── main.py
 ├── config/
-│ └── imagenet.yml
+│   └── imagenet.yml
 ├── attacks/
-│ ├── gaussian_step.py
-│ └── curvature.py
+│   ├── gaussian_step.py
+│   └── curvature.py
 ├── surrogate/
-│ ├── surrogate_manager.py
-│ └── clip_utils.py
-└── utils/
-├── common.py
-└── image_ops.py
+│   ├── surrogate_manager.py
+│   └── clip_utils.py
+├── utils/
+│   ├── common.py
+│   └── image_ops.py
 └── readme.txt
+```
 
 
 ## File Responsibilities
