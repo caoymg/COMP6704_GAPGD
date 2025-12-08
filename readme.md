@@ -31,12 +31,6 @@ project_root/
 - Computes original similarity and K=3 noisy similarities.
 
 
-### `surrogate/surrogate_manager.py`
-- Loads multiple CLIP models.
-- Stores tokenizer, device, target embeddings.
-- Provides interface to compute image embeddings.
-
-
 ## How the Attack Works
 
 1. For each image, initialize delta = 0.
