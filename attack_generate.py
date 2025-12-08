@@ -58,7 +58,7 @@ def robustness_eval(args, device):
 
     # load data
     # ym: data to image and target caption
-    index_df = pd.read_csv("/media/ssd1/cym/imagenet1000.csv")
+    index_df = pd.read_csv("/path/imagenet1000.csv")
     all_avg_trH = []
     for i, row in index_df.iterrows():
 
